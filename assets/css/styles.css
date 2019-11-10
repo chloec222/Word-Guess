@@ -1,0 +1,121 @@
+@media (max-width: 575.98px) {
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+
+@media (min-width: 1200px) {
+}
+
+
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: #3673ce;
+    color: #ffffff;
+}
+
+.large{
+    width:100%;
+    height:auto;  
+    margin-bottom: 30px; 
+}
+
+audio{
+    display:block;
+    margin: 30px auto 20px;
+}
+
+.container-fluid{
+    clear:both;
+    border:2px solid #ffffff;
+    background-color: #cf5c49;
+    width: 70%;
+    height: auto;
+    margin: 30px 20px;
+    padding:20px;
+    border-radius: 50px 50px;
+    margin:auto;
+    box-shadow: 0px 3px 10px #6d6d6d;
+    
+}
+
+h1{
+    color:#ffffff;
+    text-transform: uppercase;
+    text-shadow:2px 2px 7px #f5c79b;
+    text-align: center;  
+    line-height: 1.5em; 
+    padding-bottom: 15px;
+    border-bottom: 6px dotted #ffffff; 
+}
+
+h3{
+    text-transform: uppercase;
+    margin-left:50px 50px;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #5accfd;
+    padding: 30px;
+}
+
+p{
+    margin-left:50px;
+    line-height: 1.75em;
+    font-size: 1.5em;
+    letter-spacing: .05em;
+    
+}
+
+span{
+    border: 2px solid #ffffff;
+    background-color: gainsboro;
+    color:rgb(117, 115, 115);
+    border-radius: 20px 20px;
+    padding: 5px 10px;
+    font-family: 'Rubik', sans-serif;
+    margin-right: 20px;
+}
+
+
+h4{
+    text-align: center;
+    padding:20px;
+    line-height: 1.5em;
+    color:#37bbf3;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+
+  .theme{
+    text-align: center;
+  }
+
+  #currentWord{
+      font-size: 4em;
+      font-family: 'Pangolin', cursive;
+  }
+ 
+  #remainingGuesses{
+    font-size: 4em;
+    font-family: 'Pangolin', cursive;
+  }
+
+  #guessedLetters{
+    font-size: 4em;
+    font-family: 'Pangolin', cursive;
+  }
+
+  #totalWins {
+    font-size: 4em;
+    font-family: 'Pangolin', cursive;
+  }

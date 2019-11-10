@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand|Patrick+Hand+SC|Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon|Pangolin&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    
+
+    <title>Pororo Word Game</title>
+
+</head>
+
+<body>
+    
+    <img src="images/pororobg.jpg" alt="pororo background" class="large">
+
+
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col">
+            <h1> Welcome to Pororo Word Game!</h1>
+                <h3>How to play:</h3>
+                <p><span><b>Step 1:</b></span>  Press Any Alphabet Key  </p>
+                <p><span><b>Step 2:</b></span>  You Have 15 Chances  </p>
+                <p><span><b>Step 3:</b></span>  Can You Guess It In Time? </p>
+                <p><span><b>Step 4:</b></span>  Good Luck! </p>   
+              
+        <section class="theme">           
+            <audio id="myAudio">
+                <source src="mp3/Happy Beats.mp3" type="audio/mp3">
+                 Your browser does not support the audio element.
+            </audio>
+
+            <button onclick="playAudio()" type="button" class="btn btn-secondary btn-lg border border-white text-center rounded-pill m-4">PLAY THEME</button>
+            <button onclick="pauseAudio()" type="button" class="btn btn-secondary btn-lg border border-white text-center rounded-pill m-5">PAUSE THEME</button> 
+        </section> 
+                
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container-fluid" style="background-color: #fdd537">
+        <h1 style="text-shadow:2px 2px 7px #dd720e">50 MOST COMMON WORDS FOR TODDLERS</h1>
+        <section class="theme">
+            <!-- When user presses play button, start game -->
+            <button onclick="guess()" type="button" id="startKey" class="btn btn-primary btn-lg border border-white text-center rounded-pill m-5">CLICK TO PLAY</button>
+                     
+            <h3><span><b>Current Word</b></span></h3>
+            <div id="currentWord"></div>
+            <br>
+            <h3><span><b>Guesses Remaining</b></span></h3>
+            <div id="remainingGuesses"></div>
+            <br>
+            <h3><span><b>Letters Guessed</b></span></h3>
+            <div id="guessedLetters"></div>
+            <br>
+            <h3><span><b>Wins</b></span></h3>
+            <div id="totalWins"></div>
+
+            <button onclick="guess()" type="button" id="startKey" class="btn btn-primary btn-lg border border-white text-center rounded-pill m-5">NEXT WORD</button>
+        </section>
+        </div>
+        </div>
+    </div>
+
+
+              
+   
+    <img src="images/pororo3.jpg" alt="pororo background" class="large">
+
+    
+
+    <footer>
+        <h4>Copyright &#9400;</h4>
+    </footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>    
+<script type="text/javascript" src="javascript/game.js"></script> 
+
+   
+</body>
+</html> 
